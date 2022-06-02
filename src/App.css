@@ -1,4 +1,27 @@
-.map {
-  height: 800px;
+body {
+  display: flex;
+  justify-content: center;
 }
 
+.app {
+  height: 600px;
+  width: 100vh;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+}
+
+.marker {
+  background-image: url('https://img.icons8.com/external-tanah-basah-detailed-outline-tanah-basah/48/undefined/external-map-marker-user-interface-tanah-basah-detailed-outline-tanah-basah.png');
+  background-size: cover;
+  width: 22px;
+  height: 22px;
+}
+
+.marker-delivery {
+  width: 22px;
+  height: 22px;
+  background-color: red;
+}
